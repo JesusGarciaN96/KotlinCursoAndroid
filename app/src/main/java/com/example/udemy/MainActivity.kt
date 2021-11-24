@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
   // Curso de Kotlin para principiantes
   private fun variablesConstantes(){
-    
+    var nombrePersona: String = "Jesús Alejandro García";
+    var edadPersona: Int = 25;
+    println("Mi nombre es $nombrePersona y tengo $edadPersona años");
+
+    val profesionConst = "Ingeniero en Telemática";
+    println(profesionConst);
   }
 }
