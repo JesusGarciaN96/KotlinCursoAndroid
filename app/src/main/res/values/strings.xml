@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+
+    <!-- strings de button -->
+    <string name="main_text_button">Cambiar Mensaje</string>
+
+    <!-- strings de textView -->
+    <string name="main_text">Mensaje Fake!</string>
+</resources>
