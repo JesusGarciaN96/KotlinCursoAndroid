@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
     mostrarMensajeSaludo("Hola, bienvenido a android!")
     variablesConstantes()
+    tipoDatos()
   }
 
   private fun mostrarMensajeSaludo(mensajeSaludo: CharSequence){
@@ -29,5 +30,15 @@ class MainActivity : AppCompatActivity() {
 
     val profesionConst = "Ingeniero en Telemática";
     println(profesionConst);
+  }
+
+  private fun tipoDatos(){
+    val primeraCadena: String = "Primera cadena en constante";
+    val primerValorEntero: Int = 12;
+    val segundoValorEntero: Int = 24;
+    val valoresEnteros: Int = primerValorEntero + segundoValorEntero;
+    val valorDouble: Double = 12.45;
+    val multiplicacionDecimal: Double = valorDouble * 16.32F;
+    println("$primeraCadena - $valoresEnteros - $multiplicacionDecimal");
   }
 }
